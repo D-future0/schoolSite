@@ -81,19 +81,17 @@ img{
     border: none;
 }
 
-/*school vision, mission and bg badge*/
-.badge {
-    width: 40%;
-    height: 40%;
-    position: relative;
-    justify-content: center;}
+/*school vision and mission*/
 .bold{
     font-size: 32px;
 }
 .paragraph{
     font-size: 20px;
-    color: gold;
+    color: #11144c;
     padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    white-space: 2px;
 }
 .vision {
     text-align: center;

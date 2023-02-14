@@ -65,11 +65,14 @@ img{
 
 /* about options */
 
-.about {
+.resourceOpt {
     text-align: center;
+
+   /* border: 2px solid rgb(168, 166, 166);*/
+
 }
 
-.about a {
+.resourceOpt a {
     color: black;
     background-color: rgb(21, 194, 44);
     padding-left: 10%;
@@ -80,7 +83,7 @@ img{
     width: 100px;
 }
 
-.about a:hover{
+.resourceOpt a:hover{
     background-color: #109b3c;
     box-shadow: 2px 2px gray;
 }

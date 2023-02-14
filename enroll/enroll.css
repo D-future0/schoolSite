@@ -51,10 +51,9 @@
     color: rgb(11, 12, 0);
 }
 .dropdown:hover .dropdown-content{display: block;}
-.dropdown-content a:hover{background-color: rgba(228, 241, 42, 0.5);}
+.dropdown-content a:hover{background-color: rgba(250, 253, 102, 0.76);}
 
 /*school image*/
-
 img{
     margin-top: 100px ;
     background-repeat: no-repeat;
@@ -63,27 +62,65 @@ img{
     width: 100%;
 }
 
-/* about options */
-
-.about {
-    text-align: center;
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%; 
+    padding-right: 15%;
 }
 
-.about a {
-    color: black;
-    background-color: rgb(21, 194, 44);
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-    font-size: 24px;
-    border: 1px solid rgb(168, 166, 166);
+.enrollForm{
+    background-color: rgba(65, 247, 111, 0.384);
+    padding: 5%;
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0.2);
+    z-index: 1;
+}
+
+.firstName {
+    display: inline-block;
+}
+
+.lastName {
+    display: inline-block;
+}
+
+.city {
+    display: inline-block;
+}
+
+.state {
+    display: inline-block;
+}
+#textBox {
+    width: 250px;
+    height: 25px;
+}
+
+#label {
+    font-size: 18px;
+}
+#textBox:hover{
+    border-color: gold;
+}
+#myRadio:hover{
+    background-color: gold;
+    border-color: gold;
+}
+
+#fade {
+    color: gray;
+
+}
+
+#submitBtn {
     width: 100px;
+    height: 25px;
+}
+#submitBtn:hover{
+    background-color: gold;
+    border-color: gold;
 }
 
-.about a:hover{
-    background-color: #109b3c;
-    box-shadow: 2px 2px gray;
-}
 
 /* contact us */
 hr{

@@ -67,13 +67,11 @@ img{
 
 .about {
     text-align: center;
-
-   /* border: 2px solid rgb(168, 166, 166);*/
-
 }
 
 .about a {
     color: black;
+    background-color: rgb(21, 194, 44);
     padding-left: 10%;
     padding-right: 10%;
     text-decoration: none;
@@ -82,7 +80,10 @@ img{
     width: 100px;
 }
 
-.about a:hover{background-color: rgb(21, 194, 44);}
+.about a:hover{
+    background-color: #109b3c;
+    box-shadow: 2px 2px gray;
+}
 
 #badge {
     width: 40%;
@@ -92,11 +93,13 @@ img{
     margin-right: auto;
 }
 .schoolHry {
-     color: gold;
-     text-align: center;
-     margin-left: 80px;
-     margin-right: 80px;
-    
+    color: #11144c;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    white-space: 2px;
 }
 
 /* contact us */

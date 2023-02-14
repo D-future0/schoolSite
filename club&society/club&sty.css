@@ -51,39 +51,56 @@
     color: rgb(11, 12, 0);
 }
 .dropdown:hover .dropdown-content{display: block;}
-.dropdown-content a:hover{background-color: rgba(228, 241, 42, 0.5);}
+.dropdown-content a:hover{background-color: rgba(250, 253, 102, 0.76);}
 
 /*school image*/
-
-img{
-    margin-top: 100px ;
+#clubImg{
+    margin-top: 125px ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding-left: 15%;
     background-size: cover;
-    width: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* about options */
-
-.about {
+.text {
+    color: #11144c;
     text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    white-space: 2px;
 }
 
-.about a {
-    color: black;
-    background-color: rgb(21, 194, 44);
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-    font-size: 24px;
-    border: 1px solid rgb(168, 166, 166);
-    width: 100px;
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    padding: 10px 2px 10px 2px;
 }
 
-.about a:hover{
-    background-color: #109b3c;
-    box-shadow: 2px 2px gray;
+table{
+    margin-left: auto;
+    margin-right: auto;
 }
+th{
+    font-size: 20px;
+    color: aliceblue;
+    width: 14%;
+    background-color: #a7bcb9;
+}
+td{
+    width: 13%;
+    background-color: #e0ebeb;
+}
+#codeNumb{
+    font-size: 8px;
+}
+
 
 /* contact us */
 hr{

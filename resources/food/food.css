@@ -19,7 +19,7 @@
     top: 60px;
 }
 
-/*school image*/
+/*drop down menu*/
 .dropBt{
     background: none;
     font-size: 24px;
@@ -53,23 +53,24 @@
 .dropdown:hover .dropdown-content{display: block;}
 .dropdown-content a:hover{background-color: rgba(228, 241, 42, 0.5);}
 
-/*school image*/
-
-img{
+/*food image*/
+#foodImg{
     margin-top: 100px ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding-left: 15%;
     background-size: cover;
-    width: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* about options */
+/* resource options */
 
-.about {
+.resourceOpt {
     text-align: center;
 }
 
-.about a {
+.resourceOpt a {
     color: black;
     background-color: rgb(21, 194, 44);
     padding-left: 10%;
@@ -80,9 +81,19 @@ img{
     width: 100px;
 }
 
-.about a:hover{
+.resourceOpt a:hover{
     background-color: #109b3c;
     box-shadow: 2px 2px gray;
+}
+
+.text {
+    color: #11144c;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+    white-space: 2px;
 }
 
 /* contact us */

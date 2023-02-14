@@ -1,0 +1,24 @@
+table,th{
+
+    
+}
+table{
+    width: 60%;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+th{
+    width: 30%;
+}
+.bold{
+    font-size: 18px;
+}
+.event{
+    color: gray;
+    font-size: 12px;
+    
+}
+.left{
+    border-right: 2px solid;
+}

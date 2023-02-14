@@ -51,10 +51,9 @@
     color: rgb(11, 12, 0);
 }
 .dropdown:hover .dropdown-content{display: block;}
-.dropdown-content a:hover{background-color: rgba(228, 241, 42, 0.5);}
+.dropdown-content a:hover{background-color: rgba(250, 253, 102, 0.76);}
 
 /*school image*/
-
 img{
     margin-top: 100px ;
     background-repeat: no-repeat;
@@ -63,26 +62,44 @@ img{
     width: 100%;
 }
 
-/* about options */
+#all{
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+}
 
-.about {
+table,th{
     text-align: center;
 }
-
-.about a {
-    color: black;
-    background-color: rgb(21, 194, 44);
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-    font-size: 24px;
-    border: 1px solid rgb(168, 166, 166);
-    width: 100px;
+table{
+    background-color: #cafafe;
+    width: 60%;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.about a:hover{
-    background-color: #109b3c;
-    box-shadow: 2px 2px gray;
+th{
+    color: #11144c;
+    width: 30%;
+}
+.bold{
+    font-size: 18px;
+}
+.event{
+    color: gray;
+    font-size: 12px;
+    
+}
+.left{
+    border-right: 2px solid;
+}
+.dot{
+    border-top: 2px dotted #000003;
 }
 
 /* contact us */
